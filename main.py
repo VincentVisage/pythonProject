@@ -57,7 +57,7 @@ async def contacts(message: types.Message):
 
 @dp.message_handler()
 async def answer(message: types.Message):
-    await message.reply('Я тебя не понимаю.')
+    await message.reply('Я тебя не понимаю!.')
 
 
 if __name__ == '__main__':
