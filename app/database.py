@@ -16,3 +16,5 @@ async def db_start():
                 "photo TEXT, "
                 "name TEXT) ")
 db.commit()
+
+

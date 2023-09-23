@@ -14,3 +14,6 @@ catalog_list.add(InlineKeyboardButton('Майки', url='https://sneakers.by/kat
                  InlineKeyboardButton('Аксессуары', url='https://sneakers.by/katalog/aksessuary/'),
                  InlineKeyboardButton('Головные уборы', url='https://sneakers.by/katalog/golovnye_ubory/kepki/'),
                  InlineKeyboardButton('Обувь', url='https://sneakers.by/katalog/obuv-belarus/kupit-krossovki-v-belarusi/pol_muzhskie'))
+
+cancel = ReplyKeyboardMarkup(resize_keyboard=True)
+cancel.add('Отмена')
